@@ -11,11 +11,7 @@ import Foundation
 class Genre: Decodable {
     let id: Int
     let name: String
-    
-    init() {
-        id = 0
-        name = ""
-    }
+ 
 }
 
 // Adding conformance to equatable

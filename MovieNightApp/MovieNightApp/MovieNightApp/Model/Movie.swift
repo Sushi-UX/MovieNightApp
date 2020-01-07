@@ -41,16 +41,6 @@ class Movie: Decodable {
         case posterPath
     }
     
-    init() {
-        title = ""
-        overview = ""
-        releaseDate = ""
-        id = 0
-        adult = false
-        popularity = 0.0
-        voteCount = 0
-        posterPath = ""
-    }
     
     func configureDate() {
         let dateFormatter = DateFormatter()
