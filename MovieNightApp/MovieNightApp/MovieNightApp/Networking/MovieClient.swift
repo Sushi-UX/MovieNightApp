@@ -16,7 +16,7 @@ import Foundation
 class MovieClient: APIClient {
     
     var session: URLSession
-    private let APIKey = "931adb8f0fa9034f0eee754567a87c7f"
+    private let APIKey = "0f550b5ebe8d0ab7083641661830a56c"
     
     init(configuration: URLSessionConfiguration) {
         self.session = URLSession(configuration: configuration)
